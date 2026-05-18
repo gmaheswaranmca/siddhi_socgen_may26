@@ -74,7 +74,24 @@ Datastuctures:
          : use it as collection or to represent composite data like row 
 
          employees = [ ]    # empty list 
-         employees = list() # empty list  
+         employees = list() # empty list 
+
+         - index based collection 
+            zero based index 
+
+            list_name[index] # access to particular element 
+            list_name[index] = updated_value # updates the new value at index 
+
+            list_name.append(new_element) # to add new element to list 
+            list_name.pop() # to delete last element 
+            list_name.pop(index) #to delete at index 
+
+            crud operations 
+                create 
+                read all / read one 
+                update one 
+                delete one 
+
 
     tuple: similar to list 
          - readonly collection
@@ -82,6 +99,8 @@ Datastuctures:
             - cant add / remove the elements of collection 
 
          student = ('Dravid', 52, 450000, True)
+
+         index list only for reading 
 
     dictionary:    
         - collection of key value pairs 
@@ -95,10 +114,20 @@ Datastuctures:
         - to represent the human understandable composite site 
 
         jaiswal = {'name': 'Jaiswal', 'age':23, 'salary':300000, 'is_active':True}
+        print(jaiswal)
 
         freq = {} # empty dict 
         freq = dict() # empty dict 
     
+
+        assume "jaiswal" emp as dict 
+
+        i want add hra_per 
+
+        jaiswal['hra_per'] = 20
+        jaiswal['hra'] = (jaiswal['salary'] / 100) * jaiswal['hra_per']
+
+        print(jaiwal)
 
     Example:
         list of salaries 
@@ -106,3 +135,75 @@ Datastuctures:
         list of employees where each employee is inner tuple
         list of employees where each employee is inner dictionary  
          
+
+Python 
+    python shell : Interactive python statement 
+    jupiter notebook: Interactive script 
+            .ipynb 
+        many cell 
+            each cell : Interactive script
+                last statement if "express" can be evaluated and displayed  
+    python program: script as a file module with extenstion .py 
+
+
+input / print 
+list of data 
+    data = salary | employee 
+        employee -> list / tuple / dict 
+
+
+Apps Categories: 
+    1. Web App 
+        Full Stack App - Backend App / Microservices App 
+    2. DE / DA / Gen AI Apps 
+    3. Test Automation
+
+    4. Console App 
+    5. Desktop App 
+
+
+Task -> code -> funtion / object 
+
+task function :
+    should not have input / output -> standard convetion 
+
+    function 
+        arg : input to function 
+        return value : output out of function 
+
+    Example 
+        percentage_value(base, per) -> value 
+
+        Here avoided the i/o inside the fn.
+
+        This fn can be used all kind of app developers. 
+
+
+Helper:
+    help() 
+        this will ask you prompt to help 
+        if you give "list"
+        it will give you help for list object 
+
+        to quit the help: 
+            q
+
+    help(list)
+        it will give you help for "list" object directly without prompt 
+
+    dir(list)
+        it will give you the members of object 
+            - attr 
+            - methods 
+            - helper function 
+
+
+Memory Layout in Python:
+    each data in varialbe is stored object ie 
+        heap variable contains data 
+        stack variable contains name of the variable 
+            it refers the heap loc 
+
+stack         |   heap
+
+salary [-]----|-->[300000]

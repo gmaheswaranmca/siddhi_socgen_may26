@@ -3,5 +3,6 @@ https://www.anaconda.com/products/individual
 
 OR 
 
-https://tljh.jupyter.org/en/latest/install/amazon.html
+https://jupyter.org/try-jupyter/lab/index.html
+
 

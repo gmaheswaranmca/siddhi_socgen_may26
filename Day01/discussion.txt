@@ -10,3 +10,99 @@ Python PEP Standard
     https://peps.python.org/pep-0008/
 
 
+Programming paradigm Python 
+1. Procedural / Modular Programming 
+    functions - foundation -> building blocks
+
+    data 
+
+    feature_function(data) -> data will be one of the arg in feature_fn 
+2. Object Oriented Programming 
+    object 
+        - attr [data]       - business data 
+        - methods [fns]     - business functions to have business rules and functionality
+
+        attr + methods => encapsulated == bundle 
+
+        access to data => private / protected / public 
+
+        bank account object 
+            balance -> confidential data -> private / protected 
+
+        inheritance
+            class -> definition of object 
+            class can be hierarchical 
+
+            parent class : Account 
+            -> 
+            child class : SavingsAccount, CurrentAccount 
+3. Functional Programming 
+    higher order function - HOF 
+
+    "function has functional arg or return type as function"
+
+    java stream package 
+        collection 
+        map 
+        filter 
+        sort 
+        -> final transformation 
+
+    python: 
+        list comprehension -> functional programming
+
+        sorted([address for emp in emps if emp.address.city=='Bangalore])
+
+        [address for emp in emps if emp.address.city=='Bangalore].sort()
+4. AOP - Aspect Oriented Programming 
+    think about business logic 
+
+    all others write as aspects (cross-cutting scenarios)
+        authentication 
+        authorization 
+        logging 
+        etc 
+
+
+Datastuctures:
+    list : kind of arr like C/C++ 
+         : dynamica array
+         - read / write collection 
+            - change the element of collection 
+            - add / remove the elements of collection 
+         : collection of data 
+         : use it as collection or to represent composite data like row 
+
+         employees = [ ]    # empty list 
+         employees = list() # empty list  
+
+    tuple: similar to list 
+         - readonly collection
+            - cant change the element of collection 
+            - cant add / remove the elements of collection 
+
+         student = ('Dravid', 52, 450000, True)
+
+    dictionary:    
+        - collection of key value pairs 
+            - key must be primitive type or tuple 
+                str, int, float, bool, tuple 
+        - read / write collection 
+            - change the element of collection 
+                value of key-value 
+            - add / remove the elements of collection 
+                ie key-value pair 
+        - to represent the human understandable composite site 
+
+        jaiswal = {'name': 'Jaiswal', 'age':23, 'salary':300000, 'is_active':True}
+
+        freq = {} # empty dict 
+        freq = dict() # empty dict 
+    
+
+    Example:
+        list of salaries 
+        list of employees where each employee is inner list 
+        list of employees where each employee is inner tuple
+        list of employees where each employee is inner dictionary  
+         

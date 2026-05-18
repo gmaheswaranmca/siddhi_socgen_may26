@@ -225,3 +225,24 @@ ages = [10, 26, 2, 5, 18, 20, 13, 7, 8, 14]
 7. Add one more age into list 
 8. Update 2nd age element as plus 2 
 9. Display first half ages list only  
+
+10. list of employees = empty initially 
+    - each employee as tuple 
+    
+    > added 4 emp into employees list
+    > max of employee using index for each attr of emp 
+11. list of employees = empty initially         
+    - each employee as list 
+
+    > added 4 emp into employees list
+    > max of employee using index for each attr of emp 
+12. list of employees = empty initially         
+    - each employee as dict 
+
+    > added 4 emp into employees list
+    > max of employee using key for each attr of emp 
+
+    > to write into csv file using csv.DictWriter -> writing emp dict as row 
+    > to write into csv file using csv.writer -> writing emp list as row 
+    > to read from csv file using csv.DictReader -> list of emp where each emp is dict 
+    > to read from csv file using csv.reader -> list of emp where each emp is list 

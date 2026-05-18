@@ -1,0 +1,7 @@
+Jupyter notebook with Anaconda Python (open-source)
+https://www.anaconda.com/products/individual
+
+OR 
+
+https://tljh.jupyter.org/en/latest/install/amazon.html
+

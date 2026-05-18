@@ -207,3 +207,21 @@ Memory Layout in Python:
 stack         |   heap
 
 salary [-]----|-->[300000]
+
+======================================================
+1. experience ages
+    10 26 2 5 18 20 13 7 8 14
+
+ages = [10, 26, 2, 5, 18, 20, 13, 7, 8, 14]
+1. max age of first 2 age [done]
+2. max age of first 3 ages [done]
+3. max age from list 
+    - range for loop        
+    - element iterator loop     [done]
+    - while loop 
+4. find avg age                 [done]
+5. count age "above teen age" and "below or equal teen age" 
+6. Increase every age by 1
+7. Add one more age into list 
+8. Update 2nd age element as plus 2 
+9. Display first half ages list only  

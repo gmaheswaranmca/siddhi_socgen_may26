@@ -1,0 +1,24 @@
+Lab: 
+    Functions inside module "repo"
+
+    to do employee crud operations 
+
+    we use inmemory list database 
+        ie list of employees where each employee is a list 
+        employe [name, age]
+
+Assignment 1
+    Functions inside module "repo"
+
+    to do employee crud operations 
+
+    we use inmemory list database 
+        ie list of employees where each employee is a dict 
+        employee {name:value, age:value}
+
+Assignment 2
+    Flight {number, airline_name, seats, price} Management 
+    or 
+    Product {name, stock, price} Management 
+    or 
+    Vehicle {number, type, price} Management 

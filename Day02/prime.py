@@ -31,6 +31,7 @@ pdb> c
 pdb> p num, mid, num % mid, num % mid == 0
 pdb> c
 pdb> p num, mid, num % mid, num % mid == 0
+pdb> where
 pdb> break 
 pdb> clear 2
 pdb> r

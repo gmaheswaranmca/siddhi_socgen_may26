@@ -83,10 +83,10 @@ Course Outline :
         o The return statement
         o DocString ..
         o Lambda
-        o Recursive functions .. 
-        o Changing the recursive depth ..
+        o Recursive functions 
+        o Changing the recursive depth 
         o Call by value
-        o Call by reference ..
+        o Call by reference 
 
      Modules
         o Introduction

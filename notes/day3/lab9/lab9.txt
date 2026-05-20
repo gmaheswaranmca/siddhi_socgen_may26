@@ -47,8 +47,8 @@
 ---
 
 learn class and object concept 
-class : definition for object 
-object: collection attr and methods to operate on attr
+class : definition for object == blueprint
+object: collection attr and methods to operate on attr == memory allocs == real construction using blueprint 
 polymorphism: One interface, many forms 
     1. Method Overriding
     2. Method Overloading (limited support in Python)

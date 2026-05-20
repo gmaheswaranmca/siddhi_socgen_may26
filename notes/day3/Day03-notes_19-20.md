@@ -75,9 +75,9 @@ def decorator_function(original_function):
 def greet():
     print("Hello")
 
-greet = decorator_function(greet)
+decorated_greet = decorator_function(greet)
 
-greet()
+decorated_greet()
 ```
 
 #### Output

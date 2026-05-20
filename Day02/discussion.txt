@@ -23,3 +23,5 @@ Assignment 2
     or 
     Vehicle {number, type, price} Management 
 
+    crud op using inmem / json / csv / sqlite db 
+

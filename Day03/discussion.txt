@@ -1,0 +1,44 @@
+I   [lab9]
+    > comprehension 
+    > generator, iterator, coroutine
+    > oops 
+    > aop / decorator 
+II  
+    > file  [lab1]
+    > data  [lab2-5]
+    > test  [lab6-8]
+III 
+    > design patterns in py 
+IV 
+    > project learning (optional)
+    > mini case study 
+
+---
+
+1,2,3,4,5,...
+2,4,6,8,...
+0,1,1,2,3,5,8,...
+    prev two numbers 
+    initial seeds = first and second 
+
+
+event loop   -> call stack 
+    task1 x     f1 
+    task2       f2 
+    task3       task1
+    task4 
+
+
+to run puthon program in jupiterlite:
+right click inside python code -> context menu -> open console 
+in the cell: %run filename.py
+
+------------------------------------
+Mini Case Study:
+    Flight {number, airline_name, seats, price} Management 
+    or 
+    Product {name, stock, price} Management 
+    or 
+    Vehicle {number, type, price} Management 
+
+    crud op using inmem / json / csv / sqlite db 

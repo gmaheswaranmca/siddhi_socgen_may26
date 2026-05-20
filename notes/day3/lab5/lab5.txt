@@ -1,0 +1,13 @@
+repo - emp{id, name, age} management - sqlite (persistent store) - list[dict]
+    -> create_emp(emp)
+        -> new_id()
+    -> read_all_employees()
+    -> read_emp_by_id(id)
+    -> update_emp_by_id(id, new_age)
+    -> delete_emp_by_id(id)
+    
+test read_all_employees
+test create_emp
+test read_emp_by_id
+test update_emp_by_id
+test delete_emp_by_id

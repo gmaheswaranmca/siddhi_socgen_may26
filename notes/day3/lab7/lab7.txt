@@ -1,0 +1,2 @@
+Define "find_sum", "find_diff" in module calc.py 
+Test the functions using "unittest" module 

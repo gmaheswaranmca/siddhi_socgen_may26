@@ -1,0 +1,9 @@
+Define "find_sum", "find_diff" along with docstr
+
+Read doc text of "module", and each of above functions from module 
+
+Test "docstr" examples of the function "find_sum"
+using doctest
+
+jupiterlite -> using console -> Run the calc.py  
+%run calc.py

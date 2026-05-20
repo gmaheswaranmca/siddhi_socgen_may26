@@ -1,0 +1,98 @@
+### Map-comprehensions and filter-comprehensions
+### List, Tuple, Set and Dictionary comprehensions
+# generator comprehension
+### Solving complex iteration-based map/filter problems using comprehensions (use-cases
+        with examples)
+    employees = [
+        {"id": 101, "name": "John",  "age": 25, "salary": 50000},
+        {"id": 102, "name": "Mary",  "age": 32, "salary": 65000},
+        {"id": 103, "name": "David", "age": 28, "salary": 45000},
+        {"id": 104, "name": "Sara",  "age": 35, "salary": 70000},
+        {"id": 105, "name": "Mike",  "age": 40, "salary": 30000}
+    ]
+
+
+    # Filter employees age > 30
+    # Map result into new structure
+    # Increase salary by 10%
+    # Create dictionary output
+...
+## Creating a generator using yield statement.
+    # Fibonacci Generator
+## Creating a iterator
+    # Fibonacci Iterator
+## Creating co-routines using yield expressions
+##  Using async and await features to implement co-routines and concurrency patterns.
+    #  An overview on the asyncio library.
+    download.py
+...
+# define the Employee class with attr id, name, age
+    # and implement repr and str special methods
+# inheritance - Person -> Employee
+# public, protected, private attr
+# using static method and class method 
+# Method overriding : Child class redefining parent method.
+# Inheritance and Duck-typing.
+    Python philosophy:
+    “If it walks like a duck and quacks like a duck, treat it like a duck.”
+## Introspection of objects:
+### OO Design: Pythonisms and best practices
+...
+##  Creating and using decorators in Python.
+## Creating decorators with arguments (parameterized decorators).
+
+## Decorating classes and methods of a class
+
+##  Use-case examples and best practices for implementing decorators
+---
+
+learn class and object concept 
+class : definition for object 
+object: collection attr and methods to operate on attr
+polymorphism: One interface, many forms 
+    1. Method Overriding
+    2. Method Overloading (limited support in Python)
+    3. Operator Overloading
+encapsulation: binding attr and methods together as a single bundle 
+abstraction: hide the internal details of object method call 
+    abstract class / interface : to declare the functions without definition 
+    implementation class: defining abstract functions in derived class 
+inheritance: 
+    One class to acquire properties of another class
+Types of Inheritance in Python
+| Type         | Description            |
+| ------------ | ---------------------- |
+| Single       | One parent, one child  | A->B
+| Multiple     | Multiple parents       | A,B -> C
+| Multilevel   | Chain inheritance      | A -> B -> C
+| Hierarchical | Multiple child classes | A -> B A -> C A-> D
+| Hybrid       | Combination            | 
+---
+
+class : user defined data type.
+
+---
+
+__init__() 
+    is a special method called automatically 
+    when an object is created.
+
+    It is called a constructor in Python.
+
+It is called a constructor in Python.
+__str__() and __repr__() are 
+    both special methods used 
+    to convert an object into a string, 
+    but Python uses them in different situations.
+
+__str__() Used for a readable/user-friendly display.
+    Called by: print(obj), str(obj)
+
+__repr__()
+    Used for a developer/debug representation. 
+    Called by: repr(obj)
+    Also used when object is inside collections:
+    print([obj])
+
+---
+

@@ -22,3 +22,4 @@ Assignment 2
     Product {name, stock, price} Management 
     or 
     Vehicle {number, type, price} Management 
+
